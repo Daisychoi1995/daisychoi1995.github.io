@@ -1,0 +1,105 @@
+body {
+  background-color: #d6f5ff;
+  color: #005470;
+  font-family: "Work Sans", serif;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #007ea8;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #9fd5d5;
+  transition: color 0.5s;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+a:hover {
+  color:white;
+}
+
+a:active {
+  color: white;
+}
+
+
+#main-welcome {
+  font-size: 3rem;
+}
+
+#main-title {
+  font-size: 2rem;
+}
+
+.main-img {
+  background-image: url("../blog/img/IMG_0755.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+.main-img:hover {
+  background-image: url("../blog/img/IMG_0756.jpg");
+}
+
+#main-introduce {
+  font-size: 1.3rem;;
+  margin: 0 40px 20px 40px;
+}
+
+#main-introduce a {
+  color: #005470;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+.te-houtaewa h1 {
+  font-size: 3rem;
+}
+
+.te-houtaewa h1, h2, h3, p {
+  margin: 30px;
+}
+
+.css-img {
+  width: 800px;
+}
+
+.css-wrap{
+  border: 10px solid #005470;
+  box-sizing: border-box;
+  margin: 0 10px 10px 10px;
+}
+.css-wrap h2 {
+  font-size: 2rem;
+}
+
+.css-wrap h2, img, p {
+  margin: 30px;
+}
+
+.value {
+  margin: 0 30px;
+}
+
+.learning-plan {
+  margin: 0 30px;
+}
