@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #d6f5ff;
   color: #005470;
@@ -101,5 +103,13 @@ footer {
 }
 
 .learning-plan {
+  margin: 0 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.js {
   margin: 0 30px;
 }

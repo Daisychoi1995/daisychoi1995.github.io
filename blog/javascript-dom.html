@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" rel="stylesheet">
+
+    <title>Javascript?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="te-houtaewa-template.html">Te Houtaewa</a>
+        </li>
+        <li>
+          <a href="html-css.html">CSS?</a>
+        </li>
+        <li>
+          <a href="value.html">Identity and value</a>
+        </li>
+        <li>
+          <a href="learning-plan.html">Learning plan</a>
+        </li>
+        <li>
+          <a href="javascript-dom.html">Javascript</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="js">
+      <h1>What is Control Flow?</h1>
+      <p>code executes in a top-down manner, unless the code control changes its course when it meets with other structures such as: Loops, Conditionals, Functions</p>
+      <h1>Loops</h1>
+      <p> Loops are a conditional statement that repeats the given task until the given condition is met. Loop statements are also known as iteration statements.
+        There are three types of loops
+        <ul>
+        <li>For</li>
+        <li>While</li>
+        <li>Do while</li>
+        <li>For Loop</li>
+      </ul>
+        The for loop is one of the most commonly used loop structures in most programming languages, not just JavaScript. It is also simple to use.</p>
+        <h1>Conditionals</h1>
+        <p>the programmer writes several codes which will be executed if the condition is met. If the condition is not met, then another statement is executed. 
+          <ul>
+            <li>if</li>
+            <li>Else if</li>
+            <li>if...else</li>
+            <li>Switch</li>
+            <li>if Statement</li>
+          </ul>
+        </p>
+        <h1>Funtions</h1>
+        <p>When you write a specific block of code for a certain purpose, that code will be needed in various places of the code, which is a typical programming issue. Therefore, writing the same code repeatedly is not a wise option, which is why functions exist.
+
+          Functions eliminate the need for repeating the same code. All you will need to do is write a function then use it whenever you want at any part of the program.</p>
+          <h1>What's DOM?</h1>
+          <p>magine your website is like a house. The DOM (Document Object Model) is like the blueprint of the house. It organizes all the parts of the house (like rooms, doors, windows, etc.) so that you can see how everything is connected. The DOM is how we can interact with the parts of the webpage using code!
+            The DOM represents the structure of a webpage.
+            It lets us access, change, add, or remove parts of the webpage using JavaScript.</p>
+            <h1>Array</h1>
+            <p>An array is like a list of items. The items inside are ordered, and each item has a position number (called an index), starting from 0.</p>
+            <h1>Objects</h1>
+            <P>An object is like a box that can store different pieces of information (called properties) with a name and a value. The properties don’t have an order like in arrays, but you access them using the name of the property.</P>
+            <h1>Array of objects</h1>
+            <p>An array of objects means that the array holds multiple objects, and each object inside the array can have different properties.
+          </p>
+          <pre><code class="language-javescript">let people = [
+            { name: "Alice", age: 25, city: "New York" },
+            { name: "Bob", age: 30, city: "London" },
+            { name: "Charlie", age: 22, city: "Paris" }
+          ];</code></pre>
+          <pre><code class="language-javescript">for (let i = 0; i < people.length; i++) {
+            console.log(people[i].name + " is " + people[i].age + " years old and lives in " + people[i].city);
+          }
+        </code></pre>
+        <h1>Funtions</h1>
+        <p>A function is a reusable block of code designed to perform a specific task. Instead of writing the same code over and over again, you can define a function once and use it whenever you need it by "calling" the function.</p>
+        <pre><code class="language-javescript">// Defining a function
+          function sayHello(name) {
+            console.log("Hello, " + name + "!");
+          }
+          
+          // Calling the function
+          sayHello("Alice"); // Output: Hello, Alice!
+          sayHello("Bob");   // Output: Hello, Bob!
+          </code></pre>
+    </div>
+    
+    <footer>© Copyright Daisy Choi 2025</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  </body>
+</html>
