@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>JavaScript Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <audio controls autoplay loop>
+      <source id = 'menuAudio' src='./freedom(chosic.com).mp3'/>
+      <embed src= './freedom(chosic.com).mp3' autoplay='autoplay' loop='loop'/>
+      </audio>
+    <h1>JavaScript Café</h1>
+    <div class="container"></div>
+    <p id="whiteCoffee"></p>
+    <button class="button" id="whiteCoffeeButton">Restock</button>
+    <p id="blackCoffee"></p>
+    <button class="button" id="blackCoffeeButton">Restock</button>
+    <p id="muffin"></p>
+    <button class="button" id="muffinButton">Restock</button>
+    <p id="eggs"></p>
+    <button class="button" id="eggsButton">Restock</button>
+    <p>---</p>
+    <p id="customerOrder"></p>
+    <p>---</p>
+    <p id="previousOrder"></p>
+    <p>---</p>
+    <p id="cash"></p>
+    <p>---</p>
+    <p id="customerCash"></p>
+    <p>---</p>
+      <input type="checkbox" name="whiteCoffee" id="whiteCoffee" class="checkBox"/>
+      <label for="whiteCoffee">White Coffee</label>
+      <input type="checkbox" name="blackCoffee" id="blackCoffee" class="checkBox"/>
+      <label for="blackCoffee">Black Coffee</label>
+      <input type="checkbox" name="muffin" id="muffin" class="checkBox"/>
+      <label for="muffin">Muffin</label>
+      <input type="checkbox" name="eggs" id="eggs" class="checkBox"/>
+      <label for="eggs">Eggs</label>
+
+    <br />
+    <button id="getRefund" class="button">Refund</button>
+    <p>---</p>
+    <button id="customerOrderButton" class="button">Customer Order</button>
+    <button id="fillOrderButton" class="button">Fill Order</button>
+    <script src="cafe.js"></script>
+  </body>
+</html>
