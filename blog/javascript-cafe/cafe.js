@@ -23,12 +23,13 @@ let products = {
 
 function displayProducts() {
   document.getElementById('whiteCoffee').innerHTML =
-    'WhiteCoffee : ' + products.whiteCoffee.stock
+    'WhiteCoffee : ' +"$"+ products.whiteCoffee.price+ "/"+ products.whiteCoffee.stock
   document.getElementById('blackCoffee').innerHTML =
-    'BlackCoffee : ' + products.blackCoffee.stock
+    'BlackCoffee : ' +"$"+ products.blackCoffee.price+ "/"+ products.blackCoffee.stock
   document.getElementById('muffin').innerHTML =
-    'Muffin : ' + products.muffin.stock
-  document.getElementById('eggs').innerHTML = 'Eggs : ' + products.eggs.stock
+    'Muffin : ' +"$"+ products.muffin
+    .price+ "/"+ products.muffin.stock
+  document.getElementById('eggs').innerHTML = 'Eggs : ' +"$"+ products.eggs.price+ "/"+ products.eggs.stock
 }
 
 displayProducts()
