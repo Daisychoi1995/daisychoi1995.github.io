@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" rel="stylesheet">
+
+    <title>Problem-solving</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Sprint1 & 2</button>
+            <div class="dropdown-content">
+              <a href="./te-houtaewa-template.html">Te Houtaewa</a>
+              <a href="./html-css.html">CSS?</a>
+              <a href="./value.html">Identity and value</a>
+              <a href="./learning-plan.html">Learning plan</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Sprint3</button>
+            <div class="dropdown-content">
+              <a href="./javascript-dom.html">Javascript</a>
+              <a href = "./javascript-cafe/index.html" target="_blank" >See my JS cafe</a>
+              <a href="./emotional-intelligence.html">emotional-intelligence</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Sprint4</button>
+            <div class="dropdown-content">
+              <a href="./problem-solving.html">Problem-Solving</a>
+              <a href="./neuroplasticity.html">neuroplasticity</a>
+              <a href="./te-whare-tapa-wha.html">te-whare-tapa-wha</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Sprint5</button>
+            <div class="dropdown-content">
+              <a href="./foundations-reflection.html">foundations-reflection</a>
+              <a href="./learning-plan.html">learning-plan</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="js">
+      <h1>1. Blocked on a Simple Problem:</h1> 
+      <p> <code class="language-javescript">
+        function capitalize(string) { 
+          let capitalize = string.split(" ").map(
+            letter => letter.charAt(0).toUpperCase() + letter.slice(1)); 
+            return capitalize.join(" "); }</code> 
+        When I logged the result to the console, I was able to get the first letter of each word capitalized, but I didn’t know how to return them as a full sentence. Initially, I thought about using something like <code>letter.charAt(0).toUpperCase() + letter.charAt(1) + ...</code> and then Googled how to combine the letters. That’s when I learned about the `slice` method and how to use it. </p> 
+        <h1>2. Elegantly Solving a Problem:</h1> 
+        <p> <pre><code class="language-javescript"> function enterScores(gradebook, students, scores) { for (let i = 0; i < students.length; i++) { gradebook[students[i]] = { testScores: scores[i] }; } return gradebook; }</code></pre>
+        At first, I was thinking of a more complicated approach (like using two for loops to add the data to the array). But then I realized that the indexes of the arrays matched exactly. So, I decided to combine the logic into a single loop. It was initially tricky to think of <code class="language-javescript">{ testScores: scores[i] }</code>, but once I understood the structure of arrays and objects, it became much easier to find the solution. </p> 
+        <h1>3. Reflecting on Problem-Solving Techniques:</h1>
+         <p> **Pseudocode:** Before writing any code, I take some time to think and write pseudocode first. This helps me structure the algorithm. I always use this technique. **10/10** **Trying something:** If the code I wrote doesn’t work, I try a different approach before Googling. **10/10** **Rubber ducky method:** When I’m really stuck, I explain the problem to myself from the ground up. During this process, I often find the answer. **9/10** **Reading error messages:** Absolutely essential. I always read error messages to guide my debugging. **10/10** **Console logging:** I always log results to the console. Seeing the output helps me identify and fix issues. **10/10** **Googling:** A lifesaver! I rely on it a lot. **10/10** **Asking your peers for help:** So far, I’ve been able to solve problems before asking peers, but I’ll definitely ask if I’m really stuck. **Asking coaches for help:** Similar to peers, I haven’t needed to ask coaches yet, but I will if necessary. **Improving your process with reflection:** Reflecting is really helpful, especially after spending a long time on a problem. I always redo problems I struggled with. **10/10** </p> 
+         <h1>4. Reflecting on Reluctance to Ask for Help:</h1>
+         <p> I think I’ve had the mindset that I must solve problems by myself. Unless I can’t solve them within two days (which is my personal deadline—haha), I don’t usually ask for help. However, I’ve realized that I should ask for help sooner than that. Next time, I’ll make sure to ask for help more quickly. </p>
+      </div>
+    
+    <footer>© Copyright Daisy Choi 2025</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  </body>
+</html>
